@@ -12,9 +12,7 @@ def main():
     user_input = input("Enter a number: ")
     number = int(user_input)
     
-    result = is_prime(number)
-    
-    if result == True:
+    if is_prime(number):
         print(f"{number} is a prime number.")
     else:
         print(f"{number} is NOT a prime number.")
